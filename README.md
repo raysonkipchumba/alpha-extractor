@@ -2,7 +2,9 @@ Export all your WorldQuant BRAIN alphas to alphas.json.
 
 Usage:
     pip install requests
+    
     python wq_export_alphas.py
+    
         (asks for email + password; or set WQ_EMAIL / WQ_PASSWORD env vars)
 
 Notes:
