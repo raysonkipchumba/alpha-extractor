@@ -1,6 +1,7 @@
 Export all your WorldQuant BRAIN alphas to alphas.json.
 
 Usage:
+
     pip install requests
     
     python wq_export_alphas.py
