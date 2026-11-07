@@ -26,7 +26,7 @@ def login(session: requests.Session) -> None:
         r = session.post(link)
     if r.status_code not in (200, 201):
         sys.exit(f"Login failed ({r.status_code}): {r.text[:200]}")
-    session.auth = None  # session cookie is enough from here
+    session.auth = None
     print("Logged in.")
 
 
